@@ -1,0 +1,25 @@
+# JOYI Chatbot Dependencies
+# Requires Python >=3.9, <3.13
+
+# --- Core chatbot framework ---
+streamlit
+langchain-core>=0.1.50
+langgraph>=0.2.28
+
+# --- Google Gemini model support ---
+langchain[google-genai]>=0.1.15
+google-generativeai>=0.5.4
+
+# --- Hugging Face/transformer support (optional for Mistral) ---
+transformers>=4.40.0
+accelerate>=0.27.0
+
+# --- Optional: to support rich async behavior and streaming ---
+aiohttp>=3.9.0
+typing-extensions>=4.5.0
+
+# .env and secrets handling
+python-dotenv>=1.0.1
+
+# auto-reload Streamlit during dev
+watchdog
