@@ -12,6 +12,5 @@ JOYI is an AI assistant built using LangGraph, Streamlit, and Google Gemini. It 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-cd JOYI
 streamlit run main.py
 
